@@ -48,7 +48,7 @@ prompts:
   \ items that come up on the call.\n    \n    # Transcript:\n    {{context}}\n  \
   \  "
 providers:
-- id: file://openai_chat_debug.py:call_api:gpt-4o-mini
+- id: file://openai_chat.py:call_api:gpt-4o-mini
   config:
     response_format:
       json_schema:
